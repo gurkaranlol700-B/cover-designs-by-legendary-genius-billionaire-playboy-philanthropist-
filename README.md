@@ -1,7 +1,8 @@
-# TRAVERSE - Cover Designs
+# CAMBRIAN QUILL - Cover Designs
 
-Sixteen cover designs for **TRAVERSE - A Collection of Voices, Dreams & Journeys**,
-the student anthology of Cambridge International School, Dasuya (Vasal Education).
+Sixteen complete book designs - **front, spine and back** for every one - for
+**CAMBRIAN QUILL: A Collection of Voices, Dreams & Journeys**, the student
+anthology of Cambridge International School, Dasuya (Vasal Education).
 
 Designed by **Gurkaran**.
 
@@ -10,11 +11,15 @@ Designed by **Gurkaran**.
 - **Set two - built with Jarvis:** the original six, drawn entirely in code. No
   photographs; every ridge, bird, ring and gradient is generated shape by shape.
 
-All covers are also produced at full print size (A5 + 3mm bleed, 300 DPI).
+Every book is produced at full print size (A5 + 3mm bleed, 300 DPI). The spine is
+set at a provisional 12mm and is regenerated at the true width once the printer
+confirms the page count.
+
+Drag a cover sideways on the site to turn the book: front -> spine -> back.
 
 ## Run locally
 
-No build step and no dependencies - it is a plain static site.
+No build step and no dependencies - a plain static site.
 
 ```bash
 python -m http.server 8000
@@ -35,7 +40,7 @@ vercel
 ```
 index.html        the page
 css/style.css     all styles
-img/              the sixteen covers
+img/              48 images - front, spine and back for sixteen books
 fonts/            Playfair Display 700, Jost 500
 ```
 
